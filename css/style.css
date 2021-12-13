@@ -45,7 +45,7 @@ div#firsttext{
 }
 
 div#firsttext>h1{
-  font-size: 7rem;
+  font-size: 5.5vw;
   font-family: p22-fllw-eaglefeather, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -55,7 +55,7 @@ div#firsttext>h1{
 
 div#details{
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.75rem;
+  font-size: 1.75vw;
   font-style: italic;
 
   width: 80%;
@@ -95,13 +95,13 @@ div#secondbox{
 }
 
 div#secondbox>h2{
-  font-size:2.25rem;
+  font-size:2.25vw;
   font-weight: 300;
   text-align: center;
 }
 
 div#secondbox>h3{
-  font-size:2rem;
+  font-size:2vw;
   text-align: center;
 }
 
@@ -124,6 +124,7 @@ div#secondaddress>h2{
   font-weight:600;
 }
 
+
 div#line{
   border-right: 2px solid #000;
 }
@@ -137,7 +138,7 @@ div#secondschedule>h3:first-child{
 }
 
 div#rsvp{
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   text-align: center;
   width: 55%;
   align-self: center;
@@ -152,7 +153,7 @@ div#rsvp>h1{
 }
 
 
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
   div.main{
     flex-direction:column;
   }
@@ -172,4 +173,4 @@ div#rsvp>h1{
     background-image: none;
     width: 95%;
   }
-}
+} */
