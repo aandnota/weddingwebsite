@@ -1,0 +1,175 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color:#0e2e65;
+}
+
+a:visited{
+  color: #d2ad4e;
+}
+
+
+div.main{
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+section.first{
+  width: 50%;
+  background-image: url("../imgs/anuxoll-nicolealex-wedding-229.jpg");
+  background-size:cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+div#firsttext{
+  width: 66%;
+
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  text-align: center;
+  margin-bottom:5rem;
+}
+
+div#firsttext>h1{
+  font-size: 7rem;
+  font-family: p22-fllw-eaglefeather, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-bottom: 1rem;
+}
+
+div#details{
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.75rem;
+  font-style: italic;
+
+  width: 80%;
+  display: flex;
+  margin-top: .5rem;
+  justify-content: space-between;
+  align-self: center;
+}
+
+div#details>h3{
+  margin-top: 0;
+}
+
+section.second{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#secondtext{
+  width: 60%;
+  font-family: "Cormorant Garamond", serif;
+  background-image:url("../imgs/backgrounddetails-03.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2.5rem;
+}
+
+div#secondbox{
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div#secondbox>h2{
+  font-size:2.25rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+div#secondbox>h3{
+  font-size:2rem;
+  text-align: center;
+}
+
+div#seconddetails{
+  width: 100%;
+
+  margin: 3rem 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+div#secondaddress{
+  width: 45%;
+  text-align: right;
+}
+
+div#secondaddress>h2{
+  font-style:normal;
+  font-weight:600;
+}
+
+div#line{
+  border-right: 2px solid #000;
+}
+
+div#secondschedule{
+  width: 45%;
+}
+
+div#secondschedule>h3:first-child{
+  margin-top:1.5rem;
+}
+
+div#rsvp{
+  font-size: 1.5rem;
+  text-align: center;
+  width: 55%;
+  align-self: center;
+  margin-top:2rem;
+}
+
+div#rsvp>h1{
+  margin: .25rem 0;
+  border: 2px solid #0e2e65;
+  border-radius:10px;
+  padding:.5rem;
+}
+
+
+@media (min-width: 400px) {
+  div.main{
+    flex-direction:column;
+  }
+
+  section.first{
+    width: 100%;
+    height: 50vh;
+  }
+
+  section.second{
+    width: 100%;
+    height: 50%;
+    align-items: none;
+  }
+
+  div#secondtext{
+    background-image: none;
+    width: 95%;
+  }
+}
