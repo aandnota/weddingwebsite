@@ -23,7 +23,7 @@ div.main{
 
 section.first{
   width: 50%;
-  background-image: url("../imgs/anuxoll-nicolealex-wedding-229.jpg");
+  background-image: url("../imgs/wedding-us-compressed.jpg");
   background-size:cover;
   background-position: center;
 
@@ -85,8 +85,6 @@ div#secondtext{
   border-image-slice: 40;
   border-image-width: 40;
   border-image-repeat:round;
-
-  padding: 3rem;
 }
 
 div#secondbox{
@@ -94,12 +92,14 @@ div#secondbox{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding:3rem;
 }
 
 div#secondbox>h2{
   font-size:2vw;
   font-weight: 300;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 div#secondbox>h3{
@@ -109,9 +109,7 @@ div#secondbox>h3{
 
 div#seconddetails{
   width: 100%;
-
-  margin: 3rem 0;
-
+  margin: 1.5rem 0 3rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -119,7 +117,7 @@ div#seconddetails{
 div#secondaddress{
   width: 45%;
   text-align: right;
-  font-soze
+  font-size: 1vw;
 }
 
 div#secondaddress>h2{
@@ -134,16 +132,19 @@ div#line{
 
 div#secondschedule{
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-div#secondschedule>h3:first-child{
-  margin-top:1.5rem;
+div#secondschedule>h3{
+  margin:.5rem 0;
 }
 
 div#rsvp{
   font-size: 1.25vw;
   text-align: center;
-  width: 55%;
+  width: 60%;
   align-self: center;
   margin-top:2rem;
 }
@@ -164,24 +165,91 @@ div#rsvp>h1>a:hover{
 
 
 
-/* @media (min-width: 400px) {
+@media (max-width: 400px) {
   div.main{
     flex-direction:column;
+    height:auto;
   }
 
   section.first{
     width: 100%;
-    height: 50vh;
+    height: 70vh;
+  }
+
+  div#firsttext{
+    width: 95%;
+  }
+
+  div#firsttext>h1{
+    font-size: 18vw;
+  }
+
+  div#details{
+    font-size: 5vw;
   }
 
   section.second{
     width: 100%;
-    height: 50%;
-    align-items: none;
+    height: 60vh;
   }
 
+
   div#secondtext{
-    background-image: none;
     width: 95%;
+    height: auto;
+    border-image-source:none;
+    border: solid 10px #d2ad4e;
+    margin-top: 14rem;
   }
-} */
+
+  div#secondbox{
+    padding: 0;
+  }
+
+  div#secondbox>h2{
+    font-size: 8vw;
+    width: 90%;
+    align-self: center;
+  }
+
+  div#secondbox>h3{
+    font-size: 6vw;
+    margin: 1rem 0;
+  }
+
+  div#seconddetails{
+    font-size: 4vw;
+    display:inline-block;
+    margin: 1rem 0;
+  }
+
+  div#secondaddress{
+    font-size:4vw;
+    width: 100%;
+    text-align:center;
+    margin: 1rem 0;
+  }
+
+  div#line{
+    width: 100%;
+    display: flex;
+    border-right: none;
+    justify-content: center;
+  }
+
+  div#line>span{
+    width: 75%;
+
+    border-top: 1px solid #000;
+  }
+
+  div#secondschedule{
+    width: 100%;
+    text-align: center;
+  }
+
+  div#rsvp{
+    padding-bottom: 4rem;
+    font-size: 3vw;
+  }
+}
