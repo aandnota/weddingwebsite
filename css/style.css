@@ -190,7 +190,6 @@ div#rsvp>h1>a:hover{
 
   section.second{
     width: 100%;
-    height: 60vh;
   }
 
 
@@ -199,7 +198,7 @@ div#rsvp>h1>a:hover{
     height: auto;
     border-image-source:none;
     border: solid 10px #d2ad4e;
-    margin-top: 14rem;
+
   }
 
   div#secondbox{
