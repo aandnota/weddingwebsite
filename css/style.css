@@ -78,13 +78,15 @@ section.second{
 }
 
 div#secondtext{
-  width: 60%;
+  width:65%;
   font-family: "Cormorant Garamond", serif;
-  background-image:url("../imgs/backgrounddetails-03.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 2.5rem;
+  border: 1px solid white;
+  border-image-source: url("../imgs/bgdetails.png");
+  border-image-slice: 40;
+  border-image-width: 40;
+  border-image-repeat:round;
+
+  padding: 3rem;
 }
 
 div#secondbox{
@@ -95,7 +97,7 @@ div#secondbox{
 }
 
 div#secondbox>h2{
-  font-size:2.25vw;
+  font-size:2vw;
   font-weight: 300;
   text-align: center;
 }
@@ -117,6 +119,7 @@ div#seconddetails{
 div#secondaddress{
   width: 45%;
   text-align: right;
+  font-soze
 }
 
 div#secondaddress>h2{
@@ -138,19 +141,27 @@ div#secondschedule>h3:first-child{
 }
 
 div#rsvp{
-  font-size: 1.5vw;
+  font-size: 1.25vw;
   text-align: center;
   width: 55%;
   align-self: center;
   margin-top:2rem;
 }
 
-div#rsvp>h1{
+div#rsvp>h1>a{
   margin: .25rem 0;
   border: 2px solid #0e2e65;
   border-radius:10px;
-  padding:.5rem;
+  padding:1rem;
 }
+
+div#rsvp>h1>a:hover{
+  background-color: #0e2e65;
+  outline: 2px solid #0e2e65;
+  border: 2px solid #fff;
+  color: #ffffff !important;
+}
+
 
 
 /* @media (min-width: 400px) {
