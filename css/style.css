@@ -164,7 +164,7 @@ div#rsvp>h1>a:hover{
 
 
 
-@media (max-width: 450px) {
+@media (max-width: 850px) {
   div.main{
     flex-direction:column;
     height:auto;
