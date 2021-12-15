@@ -142,7 +142,6 @@ div#secondschedule>h3{
 }
 
 div#rsvp{
-  font-size: 1.25vw;
   text-align: center;
   width: 60%;
   align-self: center;
@@ -165,7 +164,7 @@ div#rsvp>h1>a:hover{
 
 
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   div.main{
     flex-direction:column;
     height:auto;
