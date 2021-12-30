@@ -281,7 +281,15 @@ div#registry>h1>a:hover{
   }
 
   div#rsvp{
-    padding-bottom: 4rem;
+    
     font-size: 3vw;
+  }
+
+  div#rsvp>h1{
+    font-size: 7vw;
+  }
+
+  div#registry>h1{
+    font-size: 7vw;
   }
 }
